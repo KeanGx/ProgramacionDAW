@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=TestEstacionClimatica
+comment0.text=\ \r\n\ En\ el\ programa\ principal\ crea\ una\ estaci\u00F3n,\ introduce\ cinco\ d\u00EDas\ pedidas\ por\ \ teclado\ (si\ la\ fecha\ no\ es\ correcta\ te\ la\ tiene\ que\ volver\ a\ pedir)\ y\ lista\ esos\ d\u00EDas.\ \r\nLuego\ borra\ dos\ (pedida\ por\ teclado\ y\ valid\u00E1ndola\ de\ nuevo)\ y\ los\ vuelve\ a\ listar.\ \r\n\ \r\n
+comment1.params=argv
+comment1.target=void\ main(java.lang.String[])
+numComments=2

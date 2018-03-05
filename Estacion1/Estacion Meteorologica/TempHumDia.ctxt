@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=TempHumDia
+comment1.params=maxHum\ minHum\ minTemp\ maxTemp\ dia\ mes\ a\u00F1o
+comment1.target=TempHumDia(int,\ int,\ int,\ int,\ int,\ int,\ int)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+numComments=3

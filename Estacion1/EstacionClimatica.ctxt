@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=EstacionClimatica
+comment1.params=
+comment1.target=EstacionClimatica()
+comment1.text=\ \r\n\ Constructor\ for\ objects\ of\ class\ EstacionClimatica\ \r\n
+comment2.params=nombre\ a\u00F1o
+comment2.target=EstacionClimatica(java.lang.String,\ int)
+comment3.params=medida
+comment3.target=boolean\ addDia(TempHumDia)
+comment4.params=medida
+comment4.target=boolean\ delDia(TempHumDia)
+comment5.params=
+comment5.target=void\ listarDias()
+comment6.params=dia\ mes\ a\u00F1o
+comment6.target=boolean\ fechaOK(int,\ int,\ int)
+comment7.params=
+comment7.target=TempHumDia\ leerMedida()
+numComments=8

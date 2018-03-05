@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=TempDia
+comment1.params=minTemp\ maxTemp\ dia\ mes\ a\u00F1o
+comment1.target=TempDia(int,\ int,\ int,\ int,\ int)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=
+comment3.target=int\ obtenerNumDia()
+comment4.params=
+comment4.target=void\ eliminarDia()
+numComments=5
