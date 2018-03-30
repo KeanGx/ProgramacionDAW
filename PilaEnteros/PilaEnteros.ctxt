@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=PilaEnteros
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ PilaEnteros\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=tama\u00F1o
+comment1.target=PilaEnteros(int)
+comment2.params=valor
+comment2.target=boolean\ push(int)
+comment3.params=
+comment3.target=int\ pop()
+comment4.params=
+comment4.target=int\ peek()
+comment5.params=
+comment5.target=int\ cont()
+comment6.params=
+comment6.target=void\ list()
+comment7.params=
+comment7.target=boolean\ estaLleno()
+comment8.params=
+comment8.target=boolean\ estaVacio()
+numComments=9
