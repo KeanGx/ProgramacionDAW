@@ -15,9 +15,9 @@ Haz una clase llamada Password que siga las siguientes condiciones:
   •	Los constructores serán los siguiente:
   •	Un constructor por defecto.  Password()
   •	Un constructor con la longitud que nosotros le pasemos. Generara una contraseña aleatoria con esa longitud. Password(5)
-  •	Un constructor a partir de una cadena pasada como parámetro, contraseña cogera el valor de al cadena y longitud su tamaño                 Password(“Topsecret03”)
+  •	Un constructor a partir de una cadena pasada como parámetro, contraseña cogera el valor de al cadena y longitud su tamaño            Password(“Topsecret03”)
   •	Los métodos que implementa serán:
-  •	esFuerte(): devuelve un booleano si es fuerte o no, para que sea fuerte debe una longitud igual o mayor que 8, tener mayúsculas y         minúscula y algún dígito númerico.
+  •	esFuerte(): devuelve un booleano si es fuerte o no, para que sea fuerte debe una longitud igual o mayor que 8, tener mayúsculas y      minúscula y algún dígito númerico.
   •	generarPassword():  genera la contraseña del objeto con la longitud que tenga, pero garantizando que sea fuerte ( usar random)
   •	Método get para contraseña y longitud.
 
