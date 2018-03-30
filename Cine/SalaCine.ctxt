@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=SalaCine
+comment1.params=x\ y\ P\ precio
+comment1.target=SalaCine(int,\ int,\ Pelicula,\ int)
+comment2.params=E\ P
+comment2.target=java.lang.String\ venderAsiento(Espectador,\ Pelicula)
+comment2.text=public\ void\ se\u00F1alesSala()\ {\r\n\ \ \ \ \ \ \ \ for(int\ x\=9;x>\=sala.length;x--){\r\n\ \ \ \ \ \ \ \ \ \ \ \ for(int\ y\=0;\ y<sala[0].length;y++){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ if(x\=\=9\ &&\ y\=\=0){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ sala[x][y]\ \=\ 35;\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ else\ if\ (x\=\=9){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ sala[x][y]\ \=\ 64+y;\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ else\ if\ (y\=\=0){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ sala[x][y]\ \=\ x;\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ }\r\n
+comment3.params=
+comment3.target=boolean\ salaLlena()
+comment4.params=
+comment4.target=void\ informeSala()
+comment5.params=
+comment5.target=void\ MostrarSala()
+comment6.params=
+comment6.target=int\ cantEspectadores()
+comment7.params=
+comment7.target=int\ recaudacion()
+comment8.params=error
+comment8.target=void\ info(java.lang.String)
+numComments=9
