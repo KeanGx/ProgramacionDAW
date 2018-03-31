@@ -40,17 +40,17 @@ public class SalaCine{
         int x, y;
         String error;
         if (salaLlena()){
-            error = "SALA COMPLETA! No quedan asientos libres...";
+            error = "["+ E.nombre +"] SALA COMPLETA! No quedan asientos libres...";
             info(error);
             return null;
         }
         if (E.cartera < precio){
-            error = "FONDOS INSUFICIENTES! No tienes suficiente dinero para pagar...";
+            error = "["+ E.nombre +"] FONDOS INSUFICIENTES! No tienes suficiente dinero para pagar...";
             info(error);
             return null;
         }
         if (E.edad < P.minedad){
-            error = "MENOR DE LA EDAD RECOMENDADA! No alcanza la edad minima para visualizar la pelicula...";
+            error = "["+ E.nombre +"] MENOR DE LA EDAD RECOMENDADA! No alcanza la edad minima para visualizar la pelicula...";
             info(error);
             return null;
         }
