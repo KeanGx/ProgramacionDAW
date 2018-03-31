@@ -9,12 +9,12 @@ import java.util.Random;
 public class TestPila{
     public static void main (String Args[]){
         Random rs = new Random();
-        PilaEnteros Test = new PilaEnteros(8);
+        PilaEnteros Test = new PilaEnteros(20);
         if(Test.estaVacio()){
             do{
                 int aux = rs.nextInt(8)+1;
                 System.out.println("Introduciendo [" + aux + "]" + "["+ Test.push(aux) + "]");
-            }while(Test.cont()<8);
+            }while(Test.cont()<20);
         }
         if(Test.estaLleno()){
             Test.list();
