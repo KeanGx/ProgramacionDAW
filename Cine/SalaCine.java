@@ -75,11 +75,11 @@ public class SalaCine{
     }
     
     public void informeSala(){
-        System.out.println("-----------------------------------------");
-        System.out.println("          LISTADO DE ESPECTADORES        ");
-        System.out.println("-----------------------------------------");
-        System.out.println("       Asiento    Datos del Espectador   ");
-        System.out.println("       -------    --------------------   ");
+        System.out.println("----------------------------------------------------------");
+        System.out.println("                  LISTADO DE ESPECTADORES                 ");
+        System.out.println("----------------------------------------------------------");
+        System.out.println("       Asiento     Datos del Espectador        No. Cliente");
+        System.out.println("       -------     --------------------        -----------");
         for(int x=0; x<sala.length-1; x++){
             for(int y=1; y<sala[x].length;y++){
                 if (sala[x][y] != null){
@@ -87,7 +87,7 @@ public class SalaCine{
                     /*System.out.println("Asiento [" + (x+1) + aux + "]" +
                     " Espectador <" + sala[x][y] + ">");*/
                     System.out.println("         "+(x+1)+ "" +aux + "         " 
-                    + sala[x][y].nombre);
+                    + sala[x][y].nombre + "                         ["+ sala[x][y].id + "]");
                 }
             }
         }
