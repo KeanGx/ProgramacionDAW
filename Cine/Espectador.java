@@ -8,7 +8,8 @@
 public class Espectador
 {
     // instance variables - replace the example below with your own
-    protected static int id = 0000;
+    protected static int clientes;
+    protected int id;
     protected String nombre;
     protected int edad;
     protected int cartera;
@@ -18,8 +19,8 @@ public class Espectador
      */
     public Espectador(String nombre, int edad, int cartera)
     {
-        id = id++;
-        this.id = id;
+        clientes++;
+        this.id = clientes;
         this.nombre = nombre;
         this.edad = edad;
         this.cartera = cartera;
