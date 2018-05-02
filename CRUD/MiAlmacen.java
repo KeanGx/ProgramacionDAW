@@ -164,7 +164,7 @@ public class MiAlmacen
        int codigo = leerEntero();
        Producto p = almacen.buscarProducto(codigo);
        if(p != null){
-           System.out.print("Stock Actual: " + p.getPrecio());
+           System.out.print("Stock Actual: " + p.getStock());
            System.out.print("Introduzca cantidad adquirida: ");
            int Stock = leerEntero();
            p.setStock(p.getStock()+Stock);
@@ -183,7 +183,7 @@ public class MiAlmacen
        int codigo = leerEntero();
        Producto p = almacen.buscarProducto(codigo);
        if(p != null){
-           System.out.print("Stock Actual: " + p.getPrecio());
+           System.out.print("Stock Actual: " + p.getStock());
            System.out.print("Introduzca cantidad a vender: ");
            int Stock = leerEntero();
            p.setStock(p.getStock()-Stock);
