@@ -182,19 +182,22 @@ public class MiAlmacen
          System.out.print("Introduzca codigo: ");
        int codigo = leerEntero();
        Producto p = almacen.buscarProducto(codigo);
-       if(p != null){
+       if(p == null){
+           System.out.println("Aún no disponible");
+        }
+       else if (p.getStock()<=0){
+               System.out.println("No tiene stock para realizar una venta");
+           }
+       else {
            System.out.print("Stock Actual: " + p.getStock());
+           
            System.out.print("Introduzca cantidad a vender: ");
            int Stock = leerEntero();
            p.setStock(p.getStock()-Stock);
            almacen.modificarProducto(p);
         }
-       else{
-           System.out.println("Aún no disponible");
-        }
-       // IMPLEMENTAR
-       
     }
+       // IMPLEMENTAR
     
     // Listado de todos los productos
     private static void listar(){        
@@ -226,8 +229,13 @@ public class MiAlmacen
        System.out.println("Introduce precio del producto:");
        Float precio = sc.nextFloat();
        Producto nuevo = new Producto(codigo, nombre, stock, stock_min, precio);
-       almacen.insertarProducto(nuevo);
-       System.out.println("Aún no disponible");
+       boolean check = almacen.insertarProducto(nuevo);
+       if(check){
+           System.out.println("Producto añadido");
+        }
+        else{
+            System.out.println("Aún no disponible");
+        }
        // IMPLEMENTAR
     }
        
