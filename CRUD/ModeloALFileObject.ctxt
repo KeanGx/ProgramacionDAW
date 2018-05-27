@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ModeloALFileObject
+comment1.params=
+comment1.target=ModeloALFileObject()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ ModeloALFileObject\r\n
+comment2.params=
+comment2.target=void\ LoadFile()
+comment3.params=
+comment3.target=void\ SaveFile()
+comment4.params=p
+comment4.target=boolean\ insertarProducto(Producto)
+comment5.params=Codigo
+comment5.target=boolean\ borrarProducto(int)
+comment6.params=nuevo
+comment6.target=boolean\ modificarProducto(Producto)
+numComments=7
